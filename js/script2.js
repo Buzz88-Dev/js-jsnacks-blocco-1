@@ -17,8 +17,9 @@ output.innerHTML = "I 10 numeri dell'array sono: " + arrayNumb;
 console.log(arrayNumb);
 
 
+
 // crea un array che parte vuoto ma viene riempito automaticamente di 10 numeri casuali da 1 a 50 generati dal pc
-// possono esserci anche doppioni
+// non possono esserci doppioni
 
 let arrayNumbTwo = [];
 console.log(arrayNumbTwo);
