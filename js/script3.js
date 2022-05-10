@@ -11,8 +11,8 @@ let arraySecond = ["Goku", "Vegeta"];
 console.log(arraySecond);
 
 for (let i = 0; i < arrayOne.length; i++){ 
-    mioUl.innerHTML += `<li>${arrayOne[i]}</li>`;
 
+    mioUl.innerHTML += `<li>${arrayOne[i]}</li>`;
 
     for(y = 0; y < arraySecond.length; y++) {
 
