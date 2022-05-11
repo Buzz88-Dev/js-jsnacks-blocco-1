@@ -14,7 +14,7 @@ for (let i = 0; i < arrayOne.length; i++){
 
     mioUl.innerHTML += `<li>${arrayOne[i]}</li>`;
 
-    for(y = 0; y < arraySecond.length; y++) {
+    for(let y = 0; y < arraySecond.length; y++) {
 
         mioUl.innerHTML += `<ul><li>${arraySecond[y]}</li></ul>`;
     }
